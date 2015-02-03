@@ -1,0 +1,46 @@
+#MasterDiv {
+  height: 100%;
+  align: center;
+  text-align: center;
+  font-family: georgia;
+  width: 100%;
+  }
+
+a:link {color: #242424;}
+a:visited{color: #242424;}
+a:hover{color: black;
+        background-color: #F4F4F4}
+a:active{color: slategray;}
+a:mailto{color: slategray;}
+
+#title {
+	  font: italic normal, georgia;
+	  font-size: 72px;
+    }
+
+#subtitle {
+  font-family: georgia;
+    }
+   
+#videos    {padding: 50, 50, 50, 50;
+         }                
+
+#video {
+}
+
+#button {
+	border-radius: 1px;
+	border: 1px solid #000033;
+	background-color: #F5F5F5;
+	text-color: #242424;
+	height: 30px;
+	width: 200px;
+	margin: auto;
+	text-align: center;
+}
+
+#contact {
+position: absolute; bottom: 15px; left: 30%; right: 30%;
+text-align: center;
+          }
+                                                                             

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+
+<head>
+  <title>People are Rad</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+ <div id="MasterDiv">
+
+        <div id="title">
+        People are Rad
+        </div>
+
+
+        <div id="subtitle">
+        <em>Refuting the declaration 'People suck!' since 2015.</em>
+        <br><br><br>
+        </div>
+
+        <div id="videos">
+          <p id="video">
+          </p>
+        </div>
+
+    <div id="button">
+    			<a href="https://peoplearerad.neocities.org/">Want more Radness?</a>
+    </div>			
+
+
+        <div id="contact">
+        Know someone who merits celebration? <a href="mailto:sikes.stephen@gmail.com">Let me know!</a><br>
+      
+        
+        
+        </div>
+
+     </div>
+                                                     
+                                                      <script>
+                    var videoArray = [
+'<iframe width="560" height="315" src="//www.youtube.com/embed/6YZWbgV_jIM" frameborder="0" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="//www.youtube.com/embed/BIVTBL5r1Hg" frameborder="0" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="//www.youtube.com/embed/tbUzR6blVk4" frameborder="0" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="//www.youtube.com/embed/_5Fb2lvL8tg" frameborder="0" allowfullscreen></iframe>',
+'<iframe src="//player.vimeo.com/video/113408348" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="//www.youtube.com/embed/PiF5HHkHvX0" frameborder="0" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="//www.youtube.com/embed/-rcQZxawdWk?t=3m34s" frameborder="0" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="//www.youtube.com/embed/RPEhIoKeTg0" frameborder="0" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="//www.youtube.com/embed/2bEH_rSTp0g" frameborder="0" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="//www.youtube.com/embed/FzWi3dKis2c" frameborder="0" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="//www.youtube.com/embed/IU3V6zNER4g" frameborder="0" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="//www.youtube.com/embed/iFnV-2kGum8" frameborder="0" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="//www.youtube.com/embed/J9QzB5zdoJw" frameborder="0" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="//www.youtube.com/embed/rEuZ3B9B4HA" frameborder="0" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="//www.youtube.com/embed/xWO4JnP2T40" frameborder="0" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="//www.youtube.com/embed/ji5_MqicxSo" frameborder="0" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="//www.youtube.com/embed/z5AzvOLUtOI" frameborder="0" allowfullscreen></iframe>',
+'<iframe width="560" height="315" src="//www.youtube.com/embed/1-Taae2zLfA" frameborder="0" allowfullscreen></iframe>']
+
+var randomnumber = Math.floor(Math.random() * (videoArray.length - 0 + 1));
+
+var selector = videoArray[randomnumber]
+
+document.querySelector('#video').innerHTML=selector;
+        </script>
+        </body>
+        </html>
+        
+        
+        <!-- Use eventlistener to work on the refresh, and see about making the video selector a function, that way when the refresh button is selected, the video is refreshed and you don't have to use the same code twice. 
+                                                                                            
+        
+        <!-- Use eventlistener to work on the refresh, and see about making the video selector a function, that way when the refresh button is selected, the video is refreshed and you don't have to use the same code twice. 
+                            
