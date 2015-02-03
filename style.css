@@ -1,0 +1,17 @@
+#MasterDiv {    height: 100%;
+                align: center;
+                text-align: center;
+                font-family: georgia;
+                width: 100%;}
+
+#title  {       font: italic normal, georgia;
+                font-size: 72px; }
+
+#subtitle {     font-family: georgia; }
+
+#videos    {    padding: 50, 50, 50, 50;}
+
+#video {}
+    
+#contact {      position: absolute; bottom: 15px; left: 30%; right: 30%;
+                text-align: center;}
